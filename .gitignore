@@ -1,0 +1,15 @@
+# 1. 보안 필수 (형의 API 키)
+src/main/resources/application.properties
+
+# 2. 빌드 결과물 (쓰레기통)
+target/
+*.jar
+*.war
+
+# 3. 인텔리제이 & 맥 설정
+.idea/
+*.iml
+.DS_Store
+
+# 4. 로그 파일
+*.log
