@@ -1,32 +1,36 @@
 # 🚀 Member Full-Stack Service
 
 ## Tech Stack
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white) 
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) 
-![MyBatis](https://img.shields.io/badge/MyBatis-3E8C2A?style=flat-square&logo=mybatis&logoColor=white) 
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white) 
-![JSP](https://img.shields.io/badge/JSP-6DB33F?style=flat-square&logo=jsp&logoColor=white) 
+| 기술        | 아이콘                 |
+|-------------|-----------------------|
+| Java        | ![Java](https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png) |
+| Spring      | ![Spring](https://img.icons8.com/color/48/000000/spring-logo.png) |
+| MyBatis     | ![MyBatis](https://img.icons8.com/color/48/000000/mybatis.png) |
+| Oracle      | ![Oracle](https://img.icons8.com/color/48/000000/oracle-logo.png) |
+| JSP         | ![JSP](https://img.icons8.com/color/48/000000/java-server-pages.png) |
 
 ## Controller 역할 구분
 
-| 타입          | 역할                                     |
-|---------------|------------------------------------------|
-| 일반 Controller | JSP 페이지 포워딩                       |
-| RestController  | JSON 응답 처리                          |
+| 구분           | 일반 Controller              | RestController                |
+|----------------|-------------------------------|-------------------------------|
+| 반환 타입      | JSP 페이지                    | JSON 데이터                   |
+| 사용 용도      | 웹 페이지 포워딩             | API 응답                      |
+| 예시 메서드    | `getMemberPage()`            | `getMemberData()`             |
 
 ## 프로젝트 구조
 ```
 ./src
-    ├── main
-    │   ├── java
-    │   │   └── com
-    │   │       └── kh
-    │   │           └── geminibot
-    │   └── resources
-    ├── test
-    │   └── java
-./Dockerfile
-./deploy.sh
-./pom.xml
-./mvnw
-```
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── kh
+│   │           └── geminibot
+│   └── resources
+├── test
+│   └── java
+└── ...
+``` 
+
+## 설정 파일
+- **pom.xml**: Maven 프로젝트 설정 및 의존성 관리.
+- **application.properties**: 애플리케이션 설정.

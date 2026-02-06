@@ -11,6 +11,8 @@ docker build -t gemini-bot .
 # 3. 기존 컨테이너 삭제 및 신규 실행
 echo "🚀 컨테이너 교체 중..."
 docker rm -f my-bot
-docker run -d -p 8081:8080 --name my-bot -v /:/host_root:ro gemini-bot
+
+# [중요] / 대신 /Users로 마운트해야 맥 OS 보안 통과함!
+docker run -d -p 8081:8080 --name my-bot -v /Users:/host_root:ro gemini-bot
 
 echo "✅ 배포 완료! 이제 텔레그램 확인해봐 형."
