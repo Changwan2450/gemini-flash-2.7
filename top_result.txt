@@ -1,0 +1,6 @@
+ %CPU %MEM COMM
+ 60.9 15.7 /Applications/IntelliJ IDEA.app/Contents/MacOS/idea
+ 51.2  0.7 /Applications/Jump Desktop Connect.app/Contents/MacOS/JumpConnect
+ 18.3  0.5 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+ 13.6  7.5 /System/Library/Frameworks/Virtualization.framework/Versions/A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/MacOS/com.apple.Virtualization.VirtualMachine
+  9.9  0.7 /Applications/Jump Desktop Connect.app/Contents/MacOS/JumpConnect
